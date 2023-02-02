@@ -1,5 +1,7 @@
 import './App.css';
 import styled from "styled-components";
+import GoogleMap from './GoogleMap';
+import Example from './Example';
 
 const Button = styled.button`
   /* Adapt the colors based on primary prop */
@@ -21,6 +23,8 @@ export default function App() {
       <Button as="a" href="https://utd.edu.mx">UTD</Button>
       <Button as="a" href="https://github.com/miguelmoranv" primary>GitHub</Button>
       <Button as="a" href="https://www.facebook.com/miguelangel.moranvazques">Facebook</Button>
+      <Example />
+      <GoogleMap />
     </div>
   );
 }
